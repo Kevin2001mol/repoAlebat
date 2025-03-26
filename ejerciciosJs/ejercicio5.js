@@ -84,8 +84,27 @@ console.log(helloExists);
 /*
 6. **Muestra por consola el tamaño total del map**
 */
+/*
 const sizeMap= myMap.size;
 console.log( `El tamaño del mapa es de ${sizeMap}`);//tildes
- /*
+*/
+/*
  7. **Recorre el map con un forEach**
  */
+/*
+ myMap.forEach((value,key)=>{
+    console.log(`${key}`, value)
+});
+*/
+/*
+8. **Elimina el elemento `agarrado` del map**
+
+*/
+myMap.delete("moroso");
+console.log(myMap)
+/*
+9. **Limpia el mapa por completo**
+
+
+*/
+myMap.clear();
